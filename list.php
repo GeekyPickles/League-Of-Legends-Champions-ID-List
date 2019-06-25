@@ -1,13 +1,13 @@
 <?php
 function ChIDToName($id)
 {
-    switch($id){
+     switch(id){
     case 266: return "Aatrox"; break;
     case 412: return "Thresh"; break;
     case 23: return "Tryndamere"; break;
     case 79: return "Gragas"; break;
     case 69: return "Cassiopeia"; break;
-    case 136: return "Aurelion Sol"; break;
+    case 136: return "Aurelion_Sol"; break;
     case 13: return "Ryze"; break;
     case 78: return "Poppy"; break;
     case 14: return "Sion"; break;
@@ -63,19 +63,19 @@ function ChIDToName($id)
     case 254: return "Vi"; break;
     case 10: return "Kayle"; break;
     case 39: return "Irelia"; break;
-    case 64: return "Lee Sin"; break;
+    case 64: return "Lee_Sin"; break;
     case 420: return "Illaoi"; break;
     case 60: return "Elise"; break;
     case 106: return "Volibear"; break;
     case 20: return "Nunu"; break;
-    case 4: return "Twisted Fate"; break;
+    case 4: return "Twisted_Fate"; break;
     case 24: return "Jax"; break;
     case 102: return "Shyvana"; break;
     case 429: return "Kalista"; break;
-    case 36: return "Dr. Mundo"; break;
+    case 36: return "Dr._Mundo"; break;
     case 427: return "Ivern"; break;
     case 131: return "Diana"; break;
-    case 223: return "Tahm Kench"; break;
+    case 223: return "Tahm_Kench"; break;
     case 63: return "Brand"; break;
     case 113: return "Sejuani"; break;
     case 8: return "Vladimir"; break;
@@ -117,14 +117,14 @@ function ChIDToName($id)
     case 83: return "Yorick"; break;
     case 6: return "Urgot"; break;
     case 203: return "Kindred"; break;
-    case 21: return "Miss Fortune"; break;
+    case 21: return "Miss_Fortune"; break;
     case 62: return "Wukong"; break;
     case 53: return "Blitzcrank"; break;
     case 98: return "Shen"; break;
     case 201: return "Braum"; break;
-    case 5: return "Xin Zhao"; break;
+    case 5: return "Xin_Zhao"; break;
     case 29: return "Twitch"; break;
-    case 11: return "Master Yi"; break;
+    case 11: return "Master_Yi"; break;
     case 44: return "Taric"; break;
     case 32: return "Amumu"; break;
     case 41: return "Gangplank"; break;
@@ -133,8 +133,19 @@ function ChIDToName($id)
     case 161: return "Vel'Koz"; break;
     case 143: return "Zyra"; break;
     case 267: return "Nami"; break;
-    case 59: return "Jarvan IV"; break;
+    case 59: return "Jarvan_IV"; break;
     case 81: return "Ezreal"; break;
+    case 145: return "Kai'Sa"; break;
+    case 555: return "Pyke"; break;
+    case 518: return "Neeko"; break;
+    case 141: return "Kayn"; break;
+    case 498: return "Xayah"; break;
+    case 350: return "Yuumi"; break;
+    case 516: return "Ornn"; break;
+    case 517: return "Sylas"; break;
+    case 142: return "Zoe"; break;
+    case 164: return "Camille"; break;
+    case 497: return "Rakan"; break;
     }
 }
 
