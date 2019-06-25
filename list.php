@@ -1,7 +1,7 @@
 <?php
 function ChIDToName($id)
 {
-     switch(id){
+    switch(id){
     case 266: return "Aatrox"; break;
     case 412: return "Thresh"; break;
     case 23: return "Tryndamere"; break;
